@@ -28,7 +28,7 @@ export type { IMyMarkedDate } from "./interfaces/my-marked-date.interface";
 export type { IMyMarkedDates } from "./interfaces/my-marked-dates.interface";
 export type { IMyMonth } from "./interfaces/my-month.interface";
 export type { IMyMonthLabels } from "./interfaces/my-month-labels.interface";
-export type { IMyOptions, IAngularMyDpOptions } from "./interfaces/my-options.interface";
+export type { IMyOptions, IMyDatePickerOptions } from "./interfaces/my-options.interface";
 export type { IMyRangeDateSelection } from "./interfaces/my-range-date-selection.interface";
 export type { IMySelectorPosition } from "./interfaces/my-selector-pos.interface";
 export type { IMySingleDateModel } from "./interfaces/my-single-date-model.interface";
