@@ -1,7 +1,7 @@
 import { Component, OnInit, Renderer2, ViewChild, ChangeDetectorRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule, FormGroup, FormBuilder, Validators} from '@angular/forms';
-import { IAngularMyDpOptions, IMyDateModel, NgExMyDatePickerDirective } from 'ngex-mydatepicker';
+import { IMyDatePickerOptions, IMyDateModel, NgExMyDatePickerDirective } from 'ngex-mydatepicker';
 
 @Component({
     selector: 'dp-reactive-forms',
@@ -10,7 +10,7 @@ import { IAngularMyDpOptions, IMyDateModel, NgExMyDatePickerDirective } from 'ng
     imports: [CommonModule, ReactiveFormsModule, NgExMyDatePickerDirective]
 })
 export class DpReactiveFormsComponent implements OnInit {
-  public myDatePickerOptions: IAngularMyDpOptions = {
+  public myDatePickerOptions: IMyDatePickerOptions = {
     dateRange: false,
     dateFormat: 'mm/dd/yyyy'
   };
