@@ -134,7 +134,7 @@ export class DpInlineComponent implements OnInit {
         console.log('onDateRangeSelection(): event: ', event);
     }
 
-    getCopyOfOptions(): IAngularMyDpOptions {
+    getCopyOfOptions(): IMyDatePickerOptions {
         return JSON.parse(JSON.stringify(this.myDatePickerOptions));
     }
 }
