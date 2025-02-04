@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { NgExMyDatePickerDirective, IAngularMyDpOptions, IMyDateModel, IMyCalendarViewChanged, IMyRangeDateSelection } from 'ngex-mydatepicker';
+import { NgExMyDatePickerDirective, IMyDatePickerOptions, IMyDateModel, IMyCalendarViewChanged, IMyRangeDateSelection } from 'ngex-mydatepicker';
 
 @Component({
     selector: 'dp-inline',
@@ -11,7 +11,7 @@ import { NgExMyDatePickerDirective, IAngularMyDpOptions, IMyDateModel, IMyCalend
 })
 export class DpInlineComponent implements OnInit {
 
-    public myDatePickerOptions: IAngularMyDpOptions = {
+    public myDatePickerOptions: IMyDatePickerOptions = {
         dateRange: false,
         inline: true,
         dateFormat: 'dd.mm.yyyy'
