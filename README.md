@@ -4,7 +4,7 @@ An Angular datepicker library and sample applications upgraded from the original
 
 ## Installation
 
-Run `npm install ngex-mydatepicker` to add the library into your project directory, or add `"ngex-mydatepicker": "~19.0.1"` to the package.json file and then run `npm install` to update the existing file.
+Run `npm install ngex-mydatepicker` to add the library into your project directory, or add `"ngex-mydatepicker": "~19.0.2"` to the package.json file and then run `npm install` to update the existing file.
 
 ## What Are Changed?
 
