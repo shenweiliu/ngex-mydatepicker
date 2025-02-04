@@ -1,7 +1,7 @@
 import { Component, OnInit, Renderer2, } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { NgExMyDatePickerDirective, IAngularMyDpOptions, IMyDateModel, IMyCalendarViewChanged } from 'ngex-mydatepicker';
+import { NgExMyDatePickerDirective, IMyDatePickerOptions, IMyDateModel, IMyCalendarViewChanged } from 'ngex-mydatepicker';
 
 @Component({
     selector: 'dp-div-host',
@@ -11,7 +11,7 @@ import { NgExMyDatePickerDirective, IAngularMyDpOptions, IMyDateModel, IMyCalend
 })
 export class DpDivHostComponent implements OnInit {
 
-    public myDatePickerOptions: IAngularMyDpOptions = {
+    public myDatePickerOptions: IMyDatePickerOptions = {
         dateRange: false,
         dateFormat: 'dd.mm.yyyy',
         divHostElement: { enabled: true, placeholder: 'Click to select a date' }
