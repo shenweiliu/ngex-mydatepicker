@@ -72,4 +72,4 @@ export interface IMyOptions {
 
 }
 
-export interface IAngularMyDpOptions extends IMyOptions { }
+export interface IMyDatePickerOptions extends IMyOptions { }
