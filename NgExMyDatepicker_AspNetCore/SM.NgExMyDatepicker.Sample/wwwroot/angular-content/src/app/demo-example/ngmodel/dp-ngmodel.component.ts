@@ -168,7 +168,7 @@ export class DpNgmodelComponent implements OnInit {
     //    this.myDatePickerOptions = copy;
     //}
     onOpenSelectorTopOfInput(currentTarget: any): void {
-        let copy: IAngularMyDpOptions = this.getCopyOfOptions();
+        let copy: IMyDatePickerOptions = this.getCopyOfOptions();
         if (currentTarget) {
             copy.openSelectorTopOfInput = currentTarget.checked;
             this.myDatePickerOptions = copy;
@@ -1169,7 +1169,7 @@ export class DpNgmodelComponent implements OnInit {
         }
     }
 
-    getCopyOfOptions(): IAngularMyDpOptions {
+    getCopyOfOptions(): IMyDatePickerOptions {
         return JSON.parse(JSON.stringify(this.myDatePickerOptions));
     }
 
@@ -1228,7 +1228,7 @@ export class DpNgmodelComponent implements OnInit {
         /*
             let {isBegin, date, jsDate} = event;
         
-            let options: IAngularMyDpOptions = this.getCopyOfOptions();
+            let options: IMyDatePickerOptions = this.getCopyOfOptions();
             if(isBegin) {
                 // start date selection - set disable since (selected date + 7 days)
                 this.ngxdp.writeValue({
