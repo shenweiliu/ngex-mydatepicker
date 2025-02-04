@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { NgExMyDatePickerDirective, DefaultView, IAngularMyDpOptions, IMyCalendarViewChanged, IMyDate, IMyDateModel, IMyDefaultMonth, IMyInputFieldChanged, IMyMarkedDate, IMyRangeDateSelection, CalAnimation, ActiveView } from 'ngex-mydatepicker';
+import { NgExMyDatePickerDirective, DefaultView, IMyDatePickerOptions, IMyCalendarViewChanged, IMyDate, IMyDateModel, IMyDefaultMonth, IMyInputFieldChanged, IMyMarkedDate, IMyRangeDateSelection, CalAnimation, ActiveView } from 'ngex-mydatepicker';
 
 @Component({
     selector: 'dp-ngmodel',
@@ -11,7 +11,7 @@ import { NgExMyDatePickerDirective, DefaultView, IAngularMyDpOptions, IMyCalenda
 })
 export class DpNgmodelComponent implements OnInit {
 
-    public myDatePickerOptions: IAngularMyDpOptions = {
+    public myDatePickerOptions: IMyDatePickerOptions = {
         dateRange: false,
         dateFormat: 'd## of mmm yyyy',
         firstDayOfWeek: 'mo',
