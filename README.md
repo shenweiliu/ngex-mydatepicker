@@ -17,7 +17,7 @@ The `ngex-mydatepicker` doesn't change the functionanlity and features of the or
 
 ## Details and Use Cases
 
-The original [angular-mydatepicker](https://github.com/kekeh/angular-mydatepicker) and its [Wiki section](https://github.com/kekeh/angular-mydatepicker/wiki) provide full documents for how to set up and use the datepicker tool in Angular applications. Those documents are still valid for, and should work the same as, the `ngex-mydatepicker` version.
+The original [angular-mydatepicker](https://github.com/kekeh/angular-mydatepicker) and its [Wiki section](https://github.com/kekeh/angular-mydatepicker/wiki) provide full documents for how to set up and use the datepicker tool in Angular applications. Those documents are still valid for, and should work the same as, the `angular-mydatepicker` version.
 
 ## angular-sources_only
 
