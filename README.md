@@ -4,20 +4,20 @@ An Angular datepicker library and sample applications upgraded from the original
 
 ## Installation
 
-Run `npm install ngex-mydatepicker` to add the library into your project directory, or add `"ngex-mydatepicker": "~19.0.3"` to the package.json file and then run `npm install` to update the existing file.
+Run `npm install ngex-mydatepicker` to add the library into your project directory, or add `"ngex-mydatepicker": "~19.0.4"` to the package.json file and then run `npm install` to update the existing file.
 
 ## What Are Changed?
 
 The `ngex-mydatepicker` doesn't change the functionanlity and features of the original `angular-mydatepicker`. All changes are related to internal files, code in the project, and requirements for the latest Angular and TypeScript.
 
-- Used Angular standalone.
+- Set Angular standalone as the default.
 - Fixed a large number of TypeScript strict type-checking errors.
 - Changed deprecated to supported code logic and scenarios.   
 - Built and tested with Angular version 19.
 
 ## Details and Use Cases
 
-The original [angular-mydatepicker](https://github.com/kekeh/angular-mydatepicker) and its [Wiki section](https://github.com/kekeh/angular-mydatepicker/wiki) provide full documents for how to set up and use the datepicker tool in Angular applications. Those documents are still valid for, and should work the same as, the `angular-mydatepicker` version.
+The original [angular-mydatepicker](https://github.com/kekeh/angular-mydatepicker) and its [Wiki section](https://github.com/kekeh/angular-mydatepicker/wiki) provide full documents for how to set up and use the datepicker tool in Angular applications. Those documents are still valid and can well be referenced for the new `ngex-mydatepicker` version.
 
 ## angular-sources_only
 
